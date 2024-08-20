@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.btn-login1 {
+  padding: 8px 30px !important;
+  font-size: 12px !important;
+}
+.btn-signup {
+  padding: 9px 26px !important;
+  font-size: 11px !important;
+  letter-spacing: 1px;
+}
+
+/* Title Section */
+.main-title h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  max-width: 82%;
+  padding-left: 100px !important;
+}
+
+.main-title p {
+  padding-left: 50px !important;
+  color: gray;
+}
+
+/* Title images section */
+.title-img1 {
+  height: 300px;
+  width: 220px;
+}
+.title-img2 {
+  height: 200px;
+  margin-top: 8%;
+}
+.title-img3 {
+  height: 115px;
+  margin-top: 14%;
+}
+
+.btn-waitlist {
+  padding: 8px 30px !important;
+  font-size: 14px !important;
+  margin-bottom: -30px;
+  letter-spacing: 1px;
+}
+
+.title-sec-img-2 svg {
+  height: 16px;
+  width: 14px;
+}
+
+/* Title section bottom  FranShares*/
+.title-section-bottom {
+  max-width: 80%;
+  margin-left: 190px !important;
+}
+
+.title-bottom-row {
+  background-color: #fdedf091;
+  background-color: #f5f5f7;
+  padding: 15px 20px 15px 35px !important;
+}
+
+.title-bottom-row p {
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+}
+
+.title-bottom-row h5 {
+  color: #1887fe;
+  font-size: 18px;
+}
+
+.title-bottom-icons {
+  margin-left: -18px;
+  margin-bottom: -20px;
+  color: gray;
+}
+.title-bottom-p2 {
+  max-width: 80% !important;
+}
+.mid-bottom-3 {
+  max-width: 20%;
+}
+.title-bottom-p3 {
+  max-width: 75% !important;
+}
+
+/* Middle section icons */
+.mid-sec-icon img {
+  max-width: 60%;
+}
+
+/* Middle section Main -- Our impact & achievements */
+.mid-sec-main h1 {
+  font-size: 45px;
+  max-width: 80%;
+}
+
+.mid-p {
+  max-width: 90%;
+}
+
+.mid-right-bottom p {
+  color: gray;
+}
+
+/* Middle section 2 -Title Win-win business model  */
+.main-title p {
+  max-width: 58%;
+  margin-left: 22%;
+  letter-spacing: 1px;
+}
+
+/* Middle section 2 -rows - The problem, Our solution  */
+.mid2-right-img img {
+  height: 470px;
+  width: 480px;
+}
+
+.mid2-left {
+  height: 470px;
+  width: 480px;
+  padding: 25px;
+  background-color: #daf7ff;
+}
+
+.mid2-left p {
+  color: rgba(97, 97, 97, 0.873);
+}
+
+/* Industry verticals- Middle carousel section */
+.carousel-img img {
+  height: 210px;
+  width: 97%;
+}
+
+.car-4 img {
+  height: 210px;
+  width: 100% !important ;
+}
+
+.btn-Investments {
+  font-size: 15px !important;
+  padding: 6px 35px !important;
+}
+
+.carousel-arrows2 button,
+.carousel-arrows button {
+  padding: 8px 13px 8px 5px !important;
+}
+
+.carousel-arrows2 .btn-c-1,
+.carousel-arrows .btn-c-1 {
+  color: rgb(174, 174, 174);
+  border: 1px solid rgb(174, 174, 174);
+}
+
+.carousel-arrows2 .btn-c-1 svg,
+.carousel-arrows .btn-c-1 svg {
+  margin-left: 7px !important;
+}
+
+/* Middle section bottom -How it works   */
+.mid-btm-img img {
+  height: 400px;
+}
+
+.mid-sec-btm-img1 {
+  width: 700px;
+}
+.mid-sec-btm-img2 {
+  width: 150px;
+}
+
+.mid-btm-img p {
+  color: rgba(97, 97, 97, 0.873);
+}
+
+/* Bottom Section Benefits */
+.btm-sec-topR {
+  max-width: 90% !important;
+}
+
+.btm-sec-topR span {
+  color: rgba(0, 89, 255, 0.796);
+}
+
+.btm-sec-topR p {
+  color: rgba(97, 97, 97, 0.873);
+  max-width: 96% !important;
+  font-size: 17px;
+}
+
+.btm-sec-topR hr {
+  color: black;
+}
+
+/* Accordion Section */
+.accordion {
+  --bs-accordion-bg: #e0f7fa !important;
+  --bs-accordion-btn-bg: white !important;
+  --bs-accordion-active-bg: white !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-btn-focus-border-color: unset !important;
+}
+
+.accordion-button {
+  border-bottom: 1px solid rgb(193, 193, 193) !important;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!----%3E%3Cpath fill='rgba(0, 89, 255, 0.884)' d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(0, 89, 255, 0.884)' viewBox='0 0 448 512'%3E%3C!----%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E") !important;
+}
+
+/* Footer */
+.footer-top h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+.footer-top h5 {
+  letter-spacing: 1px;
+}
+
+.carousel-stories {
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  width: 100%;
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.person-info .p1 {
+  letter-spacing: 1px;
+}
+.person-info .p2 {
+  color: gray;
+  letter-spacing: 1px;
+  font-size: small;
+}
+
+/* footer mid - Blue container */
+.footer-blue-box {
+  max-width: 85% !important;
+  background-color: #006cff;
+}
+
+.footer-blue-box h2 {
+  letter-spacing: 2px;
+}
+
+.footer-blue-box p {
+  max-width: 57%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.846);
+  font-weight: 100 !important;
+}
+
+.footer-btn {
+  padding: 12px 22px !important;
+  font-size: 15px !important;
+  letter-spacing: 1px;
+}
+
+/* Footer Nav  */
+
+.footer-nav {
+  margin-left: -50px !important;
+}
+.footer-nav hr {
+  max-width: 92%;
+  margin-left: 50px;
+  color: rgba(182, 182, 182, 0.869);
+}
+
+.footer-nav ul li {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0px 5px;
+}
+
+.footer-email {
+  position: absolute;
+  right: 0;
+}
+
+/* Footer bottom Logo  */
+.footer-bottom {
+  max-width: 84% !important;
+  margin-right: 150px !important;
+}
+
+.footer-bottom img {
+  height: 10px;
+  cursor: pointer;
+}
+
+.logo-footer p {
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.331) !important;
+}
+
+.company-info {
+  font-size: 9px !important;
+  color: rgba(255, 255, 255, 0.331) !important;
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.331) !important;
+}
+
+/* Dark Mode css */
+.darkmoding {
+  width: 32px;
+  height: 30px;
+  font-size: 2px !important;
+}
+.darkmoding svg {
+  width: 12px;
+  height: 12px;
+}
+
+.darkModer {
+  background: black !important;
+  color: white !important;
+}
+.darkModer2 {
+  background: white !important;
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-li-a,
+.btn-waitlist-dark svg {
+  color: black !important;
+}
+.nav-li-a-dark {
+  color: white !important;
+}
+
+.btn-outline-moder {
+  background-color: white !important;
+}
+.btn-outline-moder2 {
+  background-color: #3b71ca !important;
+}
+
+.btn-waitlist-dark {
+  background-color: white !important;
+  color: black !important;
+}

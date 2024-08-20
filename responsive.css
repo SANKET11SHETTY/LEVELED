@@ -1,0 +1,543 @@
+@media screen and (max-width: 500px) {
+  /* Navbar  */
+  .btn-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-nav button {
+    padding: 8px 0px !important;
+    font-size: 14px !important;
+    width: 26%;
+  }
+
+  .nav-uli ul li {
+    padding: 0 !important;
+  }
+
+  /* Title Section */
+  .main-title h1 {
+    font-size: 25px !important;
+    letter-spacing: 0px;
+    max-width: 100% !important;
+    padding-left: 0px !important;
+  }
+
+  .main-title p {
+    letter-spacing: 1px;
+    padding-left: 0px !important;
+  }
+
+  /* Title section images */
+  .title-img1 {
+    height: 120px !important;
+    width: 80px !important;
+  }
+
+  .title-img2 {
+    height: 85px !important;
+    width: 80px !important;
+    margin-top: 9%;
+  }
+  .title-img3 {
+    height: 45px !important;
+    margin-top: 19% !important;
+  }
+
+  /* title section button --- Joint the waitlist  */
+  .btn-waitlist {
+    padding: 0px 0px !important;
+    font-size: 2px !important;
+  }
+
+  .title-sec-img-2 button {
+    width: 28%;
+    margin-bottom: -13px;
+    font-size: 8px !important;
+    padding: 5px 0px !important;
+  }
+
+  .title-sec-img-2 svg {
+    height: 10px !important;
+    width: 10px !important;
+  }
+
+  /* Title section bottom Franshares */
+
+  .title-section-bottom {
+    max-width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .title-bottom-col p {
+    margin: 0 !important;
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+
+  .title-bottom-icons {
+    margin-left: -18px;
+    margin-bottom: -20px;
+    color: gray;
+  }
+
+  .title-bottom-p2 {
+    max-width: 100% !important;
+  }
+  .mid-bottom-3 {
+    max-width: 40% !important;
+  }
+
+  .title-bottom-p3 {
+    max-width: 100% !important;
+    margin-left: 0px !important;
+  }
+
+  .t-btm-h {
+    font-size: 17px !important;
+  }
+
+  /* Middle section -- Feautured in */
+  .mid-sec-icon-main h6 {
+    font-size: 18px;
+  }
+
+  .mid-sec-icon img {
+    max-width: 100% !important;
+    height: 60px;
+  }
+
+  /* Middle section Main -- Our impact & achievements */
+  .mid-sec-main h1 {
+    font-size: 38px !important;
+    max-width: 100% !important;
+  }
+
+  .mid-p {
+    max-width: 100% !important;
+  }
+  .mid-right-bottom h1 {
+    font-size: 25px !important;
+  }
+
+  .mid-right-bottom p {
+    color: gray;
+    font-size: 12px;
+  }
+
+  /* Middle section 2 -Title Win-win business model  */
+
+  .main-title h1 {
+    font-size: 38px !important;
+  }
+
+  .main-title p {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  /* Middle section 2 -rows - The problem, Our solution  */
+  .mid2-left {
+    height: 545px !important;
+    width: 400px !important;
+    padding: 0px;
+    padding-left: 5px;
+    border-radius: 20px;
+    background-color: #daf7ff;
+  }
+
+  .mid2-right-img {
+    height: 485px !important;
+    width: 400px !important;
+  }
+
+  .mid2-right-img img {
+    height: 470px !important;
+    width: 100% !important;
+  }
+
+  /* Industry verticals- Middle carousel section */
+  .carousel-img img {
+    height: 75px;
+    width: 100%;
+  }
+
+  .carousel-img h5 {
+    font-size: 10px;
+  }
+
+  .btn-Investments {
+    font-size: 8px !important;
+    padding: 0px 8px !important;
+    height: 22px;
+  }
+
+  .container-fluid h2 {
+    font-size: 20px;
+    margin-left: -20px !important;
+  }
+
+  .carousel-arrows2 button,
+  .carousel-arrows button {
+    padding: 3px 8px 3px 0px !important;
+  }
+
+  /* Middle section bottom -How it works   */
+  .mid-btm-img img {
+    height: 300px;
+  }
+
+  .mid-sec-btm-img1 {
+    width: 700px;
+  }
+  .mid-sec-btm-img2 {
+    width: 150px;
+  }
+
+  /* Bottom Section Benefits */
+
+  .footer-top h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .footer-top h5 {
+    font-size: 15px;
+  }
+
+  .person-img img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .person-info .p1 {
+    font-size: 13px;
+  }
+  .person-info .p2 {
+    font-size: 10px;
+  }
+
+  /* Footer Mid Blue section  */
+  .footer-blue-box {
+    max-width: 100% !important;
+  }
+
+  .footer-btn {
+    padding: 5px 0px !important;
+    font-size: 10px !important;
+    letter-spacing: 0px;
+    width: 30% !important;
+  }
+
+  .footer-btn svg {
+    height: 10px !important;
+    width: 10px !important;
+  }
+
+  /* Footer Nav */
+  .footer-nav {
+    margin-left: 0px !important;
+  }
+  .footer-nav hr {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .footer-email {
+    position: absolute;
+    right: 0;
+    text-decoration: none !important;
+  }
+
+  /* footer bottom info */
+  .footer-bottom {
+    margin-right: 30px !important;
+  }
+  .logo-footer p {
+    font-size: 10px !important;
+  }
+
+  .company-info {
+    font-size: 8px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 911px) {
+  .main-title h1 {
+    font-size: 40px;
+    max-width: 100%;
+    padding-left: 0px !important;
+  }
+
+  .main-title p {
+    max-width: 80%;
+    margin-left: 10%;
+    padding-left: 0px !important;
+  }
+
+  /* Title section images */
+  .title-img1 {
+    height: 250px;
+    width: 180px;
+  }
+  .title-img2 {
+    height: 150px;
+    margin-top: 10%;
+  }
+  .title-img3 {
+    height: 100px;
+    margin-top: 15%;
+  }
+
+  /* Title section bottom  FranShares*/
+  .title-section-bottom {
+    max-width: 93%;
+    margin-left: 80px !important;
+  }
+
+  .title-bottom-row p {
+    font-size: 10px;
+  }
+
+  /* Middle section icons Featured in */
+  .mid-sec-icon img {
+    max-width: 80%;
+  }
+
+  /* Middle section Main -- Our impact & achievements */
+  .mid-sec-main h1 {
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: -80px;
+  }
+
+  .mid-right-bottom h1 {
+    font-size: 40px;
+    margin-left: 0px;
+  }
+
+  .mid-right-bottom p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .mid-p {
+    max-width: 100%;
+    font-size: 13px;
+  }
+
+  /* Middle section 2 -rows - The problem, Our solution  */
+  .mid2-right-img img {
+    height: 530px;
+    width: 450px;
+  }
+
+  .mid2-left {
+    height: 530px;
+    width: 450px;
+  }
+
+  /* Middle section bottom -How it works   */
+  .mid-btm-img img {
+    height: 400px;
+  }
+
+  .mid-sec-btm-img1 {
+    width: 685px;
+  }
+
+  .mid-sec-btm-img2 {
+    width: 120px;
+  }
+
+  .mid-btm-img p {
+    font-size: 15px;
+  }
+
+  /* Bottom Section Benefits */
+  .btm-sec-topR {
+    max-width: 92% !important;
+  }
+
+  .btm-sec-topR p {
+    font-size: 15px;
+  }
+
+  .benifits-rowL img {
+    width: 420px;
+    height: 790px !important;
+  }
+
+  /* Footer */
+  .footer-top h1 {
+    font-size: 35px;
+  }
+
+  .footer-nav {
+    width: 95% !important;
+    margin-left: 0px !important;
+  }
+
+  .footer-nav hr {
+    max-width: 87%;
+    margin-left: 60px;
+  }
+
+  .footer-bottom {
+    max-width: 93% !important;
+    padding-right: 300px !important;
+  }
+
+  .logo-footer p {
+    font-size: 10px !important;
+  }
+
+  .company-info {
+    font-size: 8px !important;
+  }
+  .person-img img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+@media screen and (max-width: 910px) and (min-width: 510px) {
+  .main-title h1 {
+    font-size: 35px;
+    max-width: 100%;
+    padding-left: 0px !important;
+  }
+
+  .main-title p {
+    max-width: 80%;
+    margin-left: 10%;
+    padding-left: 0px !important;
+  }
+  .title-section-bottom {
+    max-width: 100%;
+    margin-left: -10px !important;
+  }
+
+  /* Title section images */
+  .title-img1 {
+    height: 250px;
+    width: 180px;
+  }
+  .title-img2 {
+    height: 150px;
+    margin-top: 14%;
+  }
+  .title-img3 {
+    height: 100px;
+    margin-top: 21%;
+  }
+
+  /* Title section bottom  FranShares*/
+  .title-section-bottom {
+    max-width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .title-bottom-row p {
+    font-size: 10px;
+  }
+
+  /* Middle section Main -- Our impact & achievements */
+  .mid-sec-main h1 {
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .mid-right-bottom h1 {
+    font-size: 40px;
+    margin-left: 0px;
+  }
+
+  .mid-right-bottom p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .mid-p {
+    max-width: 100%;
+    font-size: 13px;
+  }
+
+  /* Middle section 2 -rows - The problem, Our solution  */
+  .mid2-right-img img,
+  .mid2-left {
+    height: 600px;
+    /* width: 430px; */
+    width: 380px;
+  }
+
+  /* Middle section bottom -How it works   */
+  .mid-btm-img img {
+    height: 300px;
+  }
+
+  .mid-sec-btm-img1 {
+    width: 600px;
+  }
+  .mid-sec-btm-img2 {
+    width: 100px;
+  }
+
+  .mid-btm-img p {
+    font-size: 12px;
+  }
+
+  /* Bottom Section Benefits */
+  .btm-sec-topR {
+    max-width: 92% !important;
+  }
+
+  .btm-sec-topR h4 {
+    font-size: 23px;
+  }
+  .btm-sec-topR p {
+    font-size: 15px;
+  }
+
+  .benifits-rowL img {
+    width: 350px;
+    height: 790px !important;
+  }
+
+  .footer-top h1 {
+    font-size: 30px;
+  }
+
+  .footer-car {
+    margin-right: 50px;
+  }
+  .footer-nav {
+    width: 90% !important;
+    margin-left: 30px !important;
+  }
+
+  .footer-nav hr {
+    max-width: 98%;
+    margin-left: 10px;
+  }
+
+  .footer-bottom {
+    max-width: 93% !important;
+    padding-right: 300px !important;
+  }
+
+  .logo-footer p {
+    font-size: 10px !important;
+  }
+
+  .company-info {
+    font-size: 8px !important;
+  }
+  .person-img img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
