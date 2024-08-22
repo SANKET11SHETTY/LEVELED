@@ -8,6 +8,7 @@
 /* Navbar */
 .nav-main{
   background-color: white;
+    box-shadow: white 0px 3px 6px, white 0px 3px 6px;
 }
 
  .navbar-nav li a:hover{
@@ -386,11 +387,13 @@
 /* Dark Mode css */
 .darkModer .nav-main{
   background-color: black;
+    box-shadow: black 0px 3px 6px, black 0px 3px 6px;
 }
 
 .darkModer .navbar-nav li a:hover{
   color: rgb(52, 160, 255) !important;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    border-radius: 0px;
 }
 
 .darkmoding {
