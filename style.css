@@ -6,6 +6,16 @@
 }
 
 /* Navbar */
+.nav-main{
+  background-color: white;
+}
+
+ .navbar-nav li a:hover{
+  color: rgb(52, 160, 255) !important;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 15px;
+}
+
 .btn-login1 {
   padding: 8px 30px !important;
   font-size: 12px !important;
@@ -374,6 +384,15 @@
 } */
 
 /* Dark Mode css */
+.darkModer .nav-main{
+  background-color: black;
+}
+
+.darkModer .navbar-nav li a:hover{
+  color: rgb(52, 160, 255) !important;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
 .darkmoding {
   padding: 0;
   width: 30px;
