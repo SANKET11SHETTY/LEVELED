@@ -39,10 +39,12 @@ let typed = new Typed(".auto-typers", {
 $(document).ready(function () {
   $(".darkmoding").click(function () {
     $("body").toggleClass("darkModer");
-    $(".darkmoding").toggleClass("darkModer2");
+    // $(".darkmoding").toggleClass("darkModer2");
     $(".nav-li-a").toggleClass("nav-li-a-dark");
     $(".btn-outline-dark").toggleClass("btn-outline-moder");
     $(".btn-dark2").toggleClass("btn-outline-moder2");
     $(".btn-waitlist").toggleClass("btn-waitlist-dark");
+        $(".btn-Investments").toggleClass("btn-outline-moder2");
+
   });
 });
