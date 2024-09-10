@@ -6,6 +6,16 @@
 }
 
 /* Navbar */
+.nav-main{
+  background-color: white;
+    box-shadow: white 0px 3px 6px, white 0px 3px 6px;
+}
+
+ .navbar-nav li a:hover{
+  color: rgb(52, 160, 255) !important;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 15px;
+}
 .btn-login1 {
   padding: 8px 30px !important;
   font-size: 12px !important;
@@ -405,7 +415,7 @@
 
 .darkmoding svg:last-child{
   display: none;
-  color: black;
+  color: black !important;
 }
 .logo2{
   display: none;

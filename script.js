@@ -39,7 +39,7 @@ let typed = new Typed(".auto-typers", {
 $(document).ready(function () {
   $(".darkmoding").click(function () {
     $("body").toggleClass("darkModer");
-    $(".darkmoding").toggleClass("darkModer2");
+    // $(".darkmoding").toggleClass("darkModer2");
     $(".nav-li-a").toggleClass("nav-li-a-dark");
     $(".btn-outline-dark").toggleClass("btn-outline-moder");
     $(".btn-dark2").toggleClass("btn-outline-moder2");
@@ -48,6 +48,28 @@ $(document).ready(function () {
   });
 });
 
+
+// Text Slide Animation
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+      console.log(entry);
+      if(entry.isIntersecting){
+          entry.target.classList.add("slide-txt-show");
+      }
+      else{
+          entry.target.classList.remove("slide-txt-show");
+      }
+  });
+});
+
+
 const hiddenElements = document.querySelectorAll(".slide-txt");
 hiddenElements.forEach((el)=> observer.observe(el));
 
+// Pre Loader
+
+var loader = document.getElementById("pre-loader1");
+
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
