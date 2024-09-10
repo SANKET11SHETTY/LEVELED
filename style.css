@@ -6,12 +6,6 @@
 }
 
 /* Navbar */
-
-.nav-main{
-  background-color: white;
-  box-shadow: white 0px 3px 6px, white 0px 3px 6px;
-  
-}
 .btn-login1 {
   padding: 8px 30px !important;
   font-size: 12px !important;
@@ -398,8 +392,7 @@
 
 /* Dark Mode css */
 .darkmoding {
-  padding: 0;
-  width: 30px;
+  width: 32px;
   height: 30px;
   
   font-size: 2px !important;
@@ -515,6 +508,119 @@
 .btn-waitlist-dark {
   background-color: white !important;
   color: black !important;
+} */
+
+/* Dark Mode css */
+.darkModer .nav-main{
+  background-color: black;
+    box-shadow: black 0px 3px 6px, black 0px 3px 6px;
+}
+
+.darkModer .navbar-nav li a:hover{
+  color: rgb(52, 160, 255) !important;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    border-radius: 0px;
+}
+
+.darkmoding {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 2px !important;
+}
+.darkmoding svg {
+  width: 15px;
+  height: 15px;
+  margin-left: -3px !important;
+}
+
+.darkmoding svg:last-child{
+  display: none;
+  color: black;
+}
+.logo2{
+  display: none;
+}
+
+.darkModer .logo1{
+  display: none;
+}
+.darkModer .logo2{
+  display: block;
+}
+
+.logo2{
+  margin-bottom: -30px !important;
+}
+.darkModer .darkmoding svg:first-child{
+  display: none;
+}
+
+.darkModer .darkmoding svg:last-child{
+  display: block;
+  color: black;
+}
+
+.darkModer .title-bottom-row{
+  background-color: black;
+}
+
+.darkModer .mid2-left{
+  background-color: rgba(255, 255, 255, 0.131);
+}
+
+ .darkModer .title-bottom-row svg{
+ color: white;
+}
+
+.darkModer .btn-outline-dark:hover{
+  background-color: rgb(178, 178, 178) !important;
+}
+
+.darkModer p{
+ color: white;
+}
+
+.darkModer .accordion {
+  --bs-accordion-btn-bg: black !important;
+  --bs-accordion-btn-color: white !important;
+  --bs-accordion-active-bg: black !important;
+  --bs-accordion-active-color: white;
+}
+
+.darkModer {
+  background: black !important;
+  color: white !important;
+}
+
+.darkModer2 {
+  background: white !important;
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-li-a,
+.btn-waitlist-dark svg {
+  color: black !important;
+}
+.nav-li-a-dark {
+  color: white !important;
+}
+
+.btn-outline-moder {
+  background-color: white !important;
+}
+.btn-outline-moder2 {
+  background-color: #3b71ca !important;
+}
+
+.btn-waitlist-dark {
+  background-color: white !important;
+  color: black !important;
+}
+
+.mid2-main-h3-dark {
+  color: black;
 }
 
 .mid2-main-h3-dark {
