@@ -352,6 +352,12 @@
 
 .footer-nav {
   margin-left: -50px !important;
+  background-color: transparent !important;
+}
+
+.nav-ftr{
+  background-color: transparent !important;
+  box-shadow: none;
 }
 .footer-nav hr {
   max-width: 92%;
@@ -635,6 +641,11 @@
 
 .mid2-main-h3-dark {
   color: black;
+}
+
+.darkModer .nav-ftr{
+  background-color: transparent !important;
+  box-shadow: none;
 }
 
 .darkModer .txt-gradient
