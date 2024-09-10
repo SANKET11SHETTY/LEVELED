@@ -39,10 +39,36 @@ let typed = new Typed(".auto-typers", {
 $(document).ready(function () {
   $(".darkmoding").click(function () {
     $("body").toggleClass("darkModer");
-    $(".darkmoding").toggleClass("darkModer2");
     $(".nav-li-a").toggleClass("nav-li-a-dark");
     $(".btn-outline-dark").toggleClass("btn-outline-moder");
     $(".btn-dark2").toggleClass("btn-outline-moder2");
+    $(".btn-Investments").toggleClass("btn-outline-moder2");
     $(".btn-waitlist").toggleClass("btn-waitlist-dark");
+    // $(".mid2-main-h3").toggleClass("mid2-main-h3-dark");
   });
 });
+
+
+// Preloader
+var loader = document.getElementById("pre-loader1");
+
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
+
+// Slide Text
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+      console.log(entry);
+      if(entry.isIntersecting){
+          entry.target.classList.add("slide-txt-show");
+      }
+      else{
+          entry.target.classList.remove("slide-txt-show");
+      }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".slide-txt");
+hiddenElements.forEach((el)=> observer.observe(el));
+

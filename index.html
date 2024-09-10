@@ -15,20 +15,25 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
     <script src="   https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+   
 </head>
   <body>
 
+   <div id="pre-loader1" ></div>
     <!-- Navbar  -->
     <header>
-        <nav class="navbar navbar-expand-lg   nav-main">
+        <div class="scroll-watcher fixed-top" ></div>
+        <nav class="navbar navbar-expand-lg nav-main fixed-top pb-4 ">
             <div class="container-fluid">
                 <div class="logo-img ps-lg-5">
 
                     <a class="navbar-brand" href="#">
-                      <img src="Images/logo.png" alt="" class="img-fluid  rounded-3" width="120px">
+                      <img src="Images/NavLogo.png" alt="" class="img-fluid  logo1" width="120px" >
+                      <img src="Images/NavLogoWhite.png" alt="" class="img-fluid logo2" width="120px">
                     </a>
                 </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse nav-uli d-lg-flex justify-content-end " id="navbarSupportedContent">
@@ -45,15 +50,14 @@
                         </li>
                         <div class="btn-nav me-lg-5 pt-lg-1 pt-2 pe-lg-3 ps-lg-3 ">
                   
-                            <button class="btn btn-outline-dark rounded-pill  fw-semibold btn-login1" type="submit">Login</button>
+                            <button class="btn btn-outline-dark rounded-pill  fw-semibold btn-login1" type="submit" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">Login</button>
                             <button class="btn btn-dark btn-dark2 rounded-pill ms-lg-3 btn-signup mt-3 mt-lg-0" type="submit">Sign Up</button>
                           </div>
 
                           <div class="moders pt-2 pt-lg-1 ps-4 ps-lg-0">
 
-                            <button class="btn btn-dark darkmoding fw-bold rounded-5" title="Change Theme"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon " viewBox="0 0 16 16">
-                              <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
-                            </svg></button>
+                            <button class="btn btn-dark darkmoding fw-bold rounded-5" title="Change Mode"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg></button>
                           </div>
                         
                       </ul>
@@ -61,14 +65,15 @@
               </div>
             </div>
           </nav>
+         
     </header>
 
     <!-- Main Title -->
 
-<section class="container-fluid px-0 px-lg-5  ">
+<section class="container-fluid px-0 px-lg-5 px-md-0 px-xl-0 me-xl-0 pt-5 ">
 
-    <div class="container main-title text-center pt-lg-5 px-0 px-lg-5  ">
-        <h1 class="pt-5 pb-3 fw-bold ms-lg-5  ">Own a piece of Main Street: Join the <br><span class="auto-typers"></span></h1>
+    <div class="container main-title text-center pt-lg-5 px-0 px-lg-0 px-xl-0 pe-xl-5 ">
+        <h1 class="pt-5 pb-3 fw-bold ms-lg-5 pe-md-5 px-lg-0 txt-gradient">Own a piece of Main Street: Join the <br><span class="auto-typers"></span></h1>
         <p class="px-2 px-lg-0  ps-md-0 ">Diversify your portfolio unlock the attractive returns of Small Medium Businesses without any of the operational burden.</p>
     </div>
 
@@ -78,21 +83,21 @@
 <!-- Title section Images -->
 
 
-<section class="container-fluid title-sec-img pt-2 pb-5 px-xs-0 mx-xs-0 px-md-0 px-lg-0 mx-md-0 mx-lg-0">
-    <div class="title-sec-img-2 d-flex  justify-content-center align-self-end">
+<section class="container-fluid title-sec-img pt-2 pb-5 px-xs-0 mx-xs-0 px-md-0 px-lg-0 mx-md-0 me-lg-5 pe-lg-5 px-xl-0">
+    <div class="title-sec-img-2 d-flex  justify-content-center align-self-end ">
 
         <button class="btn btn-dark rounded-pill btn-waitlist px-lg-4  " type="submit">Join the Waitlist <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-arrow-right ms-lg-2 text-white " viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
           </svg></button>
     </div>
-<div class="title-img px-0  container d-flex align-items-center justify-content-center  ">
+<div class="title-img px-0  container d-flex align-items-center justify-content-center pe-lg-3 px-xl-0 ">
     <!-- <div></div> -->
-    <img src="Images/Title Section Images/titleimg1.png" class="rounded  title-img1 pe-lg-3 pe-1" alt="img1">
-    <img src="Images/Title Section Images/titleimg2.png" class="rounded  title-img2 pe-lg-3 pe-1" alt="img2">
+    <img src="Images/Title Section Images/titleimg1.png" class="rounded title-img1 pe-lg-3 pe-1" alt="img1" loading="lazy">
+    <img src="Images/Title Section Images/titleimg2.png" class="rounded title-img2 pe-lg-3 pe-1" alt="img2" loading="lazy">
    
-    <img src="Images/Title Section Images/titleimg3.png" class="rounded  title-img3 pe-lg-3 pe-1" alt="img3">
-    <img src="Images/Title Section Images/titleimg4.png" class="rounded  title-img2 pe-lg-3 pe-1" alt="img4">
-    <img src="Images/Title Section Images/titleimg5.png" class="rounded  title-img1 " alt="img5">
+    <img src="Images/Title Section Images/titleimg3.png" class="rounded title-img3 pe-lg-3 pe-1" alt="img3" loading="lazy">
+    <img src="Images/Title Section Images/titleimg4.png" class="rounded title-img2 pe-lg-3 pe-1" alt="img4" loading="lazy">
+    <img src="Images/Title Section Images/titleimg5.png" class="rounded title-img1 " alt="img5" loading="lazy">
 
 </div>
 
@@ -102,7 +107,7 @@
 <!-- Title section Bottom -- FranShares -->
 
 <section class="container-fluid d-flex justify-content-center align-items-center pb-5 title-section-bottom  px-lg-0 px-2 px-md-0">
-    <div class="row  rounded-4 title-bottom-row mt-lg-5  ps-lg-0  mx-lg-0  pe-0 ps-5 ">
+    <div class="row  rounded-4 title-bottom-row mt-lg-5  ps-lg-5 pe-lg-0 ps-md-5 pe-md-0 me-md-0 me-lg-5  me-xl-0  pe-0 ps-5 ps-xl-5 pe-xl-0">
         
         <div class="col-lg-auto col-6 col-md-auto">
             <div class="title-bottom-col pe-lg-0 me-0 ">
@@ -174,7 +179,7 @@
             <h6 class="mb-3 fw-bold">Featured in</h6>
         </div>
         <div class="mid-sec-icon text-center mb-5">
-            <img src="Images/mid-sec-icons.png"  alt="featured in" class="rounded-3">
+            <img src="Images/mid-sec-icons.png"  alt="featured in" class="rounded-3" loading="lazy">
         </div>
     </div>
 </section>
@@ -187,7 +192,7 @@ achievements-->
     <div class="container-fluid px-lg-5 px-md-5 mid-sec-main mt-5 ">
         <div class="row mb-5 ps-lg-5 mx-lg-5 px-lg-5 px-3 px-md-0">
             <div class="col-lg-6 col-12 pb-4 pb-lg-0 col-md-6">
-                <h1 class="fw-bold ">Our impact and achievements</h1>
+                <h1 class="fw-bold txt-gradient slide-txt">Our impact and achievements</h1>
             </div>
 
             <div class="col-lg-6 col-md-6">
@@ -205,7 +210,7 @@ achievements-->
                         </div>
                         <div class="col-lg-6 col-auto ps-4 px-lg-4 pe-0">
                             <h1 class="pb-lg-1 fw-semibold">500$</h1>
-                            <p>Of cash flow distributed</p>
+                            <p class="mid-right-bottom-p2">Of cash flow distributed</p>
                         </div>
                     </div>
                     <div class="row pt-4">
@@ -229,7 +234,7 @@ achievements-->
 
 <section class="container-fluid ">
     <div class="main-title text-center pt-lg-5">
-        <h1 class="pt-5 pb-3 fw-semibold ps-lg-5 ms-lg-5">Win-win business model</h1>
+        <h1 class="pt-5 pb-3 fw-semibold ps-lg-5 ms-lg-5 txt-gradient slide-txt">Win-win business model</h1>
         <p class="pb-5 pe-lg-5 ">Lorem ipsum dolor sit amet consectetur. Libero ultricies quis pretium ut platea risus ac. 
             Maecenas elementum amet tellus dolor habitasse ipsum.</p>
     </div>
@@ -243,7 +248,7 @@ achievements-->
         <div class="row px-lg-0 px-md-0 px-xl-5 mx-lg-4 mx-md-2 mx-xl-5">
             <div class="col-lg-6 pb-3 col-auto col-md-6">
                 <div class="mid2-left ms-1 ms-lg-0 rounded-4 ">
-                <h3 class="pt-4 pt-lg-2 pb-3 fw-bold">The problem</h3>
+                <h3 class="pt-4 pt-lg-2 pb-3 fw-bold mid2-main-h3">The problem</h3>
                 <p >Small businesses are the cornerstone of the American
                     economy providing ~50% of all employment. A lot of these
                     businesses are owned by boomers, who will be retiring in the
@@ -259,23 +264,23 @@ taken over by Private Equity / large corporations <br>
 Main street will never look the same again!</p>
 </div>
             </div>
-            <div class="col-lg-6 col-auto col-md-6 px-0 mx-0">
-                <div class="mid2-right-img px-0 mx-0 ms-3 ms-lg-0  pe-lg-0 me-lg-0">
-                    <img src="Images/mid2--Right.png" class="img-fluid" class="px-0">
+            <div class="col-lg-6 col-auto col-md-6 px-0 mx-0 mid2-right-col rounded-4 ">
+                <div class="mid2-right-img px-0 mx-0 ms-3 ms-lg-0  pe-lg-0 me-lg-0 rounded-4">
+                    <img src="Images/mid2--Right.png" class="img-fluid " class="px-0" loading="lazy">
                 </div>
             </div>
         </div>
 
-        <div class="row px-lg-3 px-md-0 mx-lg-4 mx-md-0 mx-xl-5 px-xl-5">
+        <div class="row px-lg-3 px-md-0 mx-lg-4 mx-md-0 mx-xl-5 px-xl-5 ">
             
-            <div class="col-lg-6 col-auto col-md-6 px-0 px-md-0 mx-md-0 pt-lg-0 pe-0 me-0">
-                <div class="mid2-right-img ms-2 ms-lg-0 ms-md-3 me-4 pe-1 pe-lg-0 me-lg-0">
-                    <img src="Images/mid2-left.png" class="img-fluid mid2-right-imgs ms-2 ms-lg-0 ms-xl-2 ">
+            <div class="col-lg-6 col-auto col-md-6 px-0 px-md-0 mx-md-0 pt-lg-0 pe-0 me-0 ">
+                <div class="mid2-right-img2 ms-2 ms-lg-0 ms-md-3 me-4 pe-1 pe-lg-0 me-lg-0 ">
+                    <img src="Images/mid2-left.png" class="img-fluid mid2-right-imgs ms-2 ms-lg-0 ms-xl-2 img-slide1" loading="lazy">
                 </div>
             </div>
             <div class="col-lg-6 pb-lg-3 col-auto pe-0 me-0 ps-0 mt-0 mt-lg-0 ">
                 <div class="mid2-left ms-3 ms-lg-0 rounded-4">
-                <h3 class="pt-2 pb-3 fw-bold">Our solution</h3>
+                <h3 class="pt-2 pb-3 fw-bold mid2-main-h3">Our solution</h3>
                 <p >Leveled is an innovative platform that is attempting to
                     democratize small business ownership. Our aim is to
                     sustainably run these businesses and continue to provide
@@ -305,38 +310,38 @@ Main street will never look the same again!</p>
     <div class="container-fluid pb-lg-5  pb-3 px-0 mx-0 carousel-cont-1 pt-5 d-flex justify-content-end">
         <div class="container-lg px-0 mx-0 carousel-cont-2 pt-2">
         <div class="carousel-title d-flex justify-content-between px-5 pb-lg-5 pb-4">
-            <h2 class="ms-lg-5 ps-lg-2 fw-bold ps-0 ms-0 ">Industry Verticals</h2>
+            <h2 class="ms-lg-5 ps-lg-2 fw-bold ps-0 ms-0 txt-gradient slide-txt">Industry Verticals</h2>
             <button class="btn btn-dark rounded-pill  ms-lg-3 btn-Investments ms-1 " type="submit">Investments</button>
         </div>
         <div class="carousel-img px-0 ps-4">
             <div class=" pe-0 carousel-row me-0 d-flex justify-content-end">
                 <div class=" pe-lg-2 pe-1">
-                    <img src="Images/carousel/1.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2" >
+                    <img src="Images/carousel/1.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1" loading="lazy">
                     <h5 class="fw-bold">Lorem Ipsum</h5>
                 </div>
                 <div class=" pe-lg-2 pe-1">
-                    <img src="Images/carousel/3.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2" >
+                    <img src="Images/carousel/3.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1" loading="lazy">
                     <h5 class="fw-bold">Lorem Ipsum</h5>
 
                 </div>
                 <div class=" pe-lg-2 pe-1">
-                    <img src="Images/carousel/1.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2" >
+                    <img src="Images/carousel/1.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1" loading="lazy">
                     <h5 class="fw-bold">Lorem Ipsum</h5>
 
                 </div>
                 <div class="pe-lg-2 pe-1">
-                    <img src="Images/carousel/2.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2" >
+                    <img src="Images/carousel/2.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1" loading="lazy">
                     <h5 class="fw-bold">Lorem Ipsum</h5>
 
                 </div>
                 <div class="pe-lg-2 pe-1">
-                    <img src="Images/carousel/3.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2"  >
+                    <img src="Images/carousel/3.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1"  loading="lazy">
                     <h5 class="fw-bold">Lorem Ipsum</h5>
 
                 </div>
                 <div class="  car-4">
-                    <img src="Images/carousel/4.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2" >
-                    <h5 class="fw-bold">Lorem Ipsum</h5>
+                    <img src="Images/carousel/4.png" alt="Industry 1" class="img-fluid mb-lg-3 mb-2 img-slide1" loading="lazy">
+                    <h5 class="fw-bold">Lorem </h5>
 
                 </div>
             </div>
@@ -360,26 +365,25 @@ Main street will never look the same again!</p>
 <section>
     <div class="container-fluid pt-lg-5 pb-5 px-0">
         <div class="container pt-4 ">
-<h1 class="text-center pb-5 fw-bold">How it works</h1>
+<h1 class="text-center pb-5 fw-bold txt-gradient slide-txt">How it works</h1>
 <div class="row px-lg-0 px-md-0 px-xl-4 mid-btm-img text-center d-flex justify-content-center">
     <div class="col-lg-auto col-md-8 mx-0  px-0 pb-4 pb-lg-0 col-12">
-        <img src="Images/howitworks.png" alt="" class="img-fluid mid-sec-btm-img1">
+        <img src="Images/howitworks.png" alt="" class="img-fluid mid-sec-btm-img1 img-slide1" loading="lazy">
 
         <div class="mid-btm-text ps-2 ps-lg-0">
 
             <h6 class="text-start pt-lg-4 pt-2 fw-bold">1. Browse</h6>
             
             </div>
-            <p class="text-start pt-lg-2 ps-2 ps-lg-0">Browse Leveled SMBs each listed after through due diligence and operator has  been put in 
-                place.</p>
+            <p class="text-start pt-lg-2 ps-2 ps-lg-0">Browse Leveled SMBs each listed after through due diligence and operator has  been put in place.</p>
     </div>
     <div class="col-lg-auto col-md-2 px-lg-2 pe-md-0 col-4">
-        <img src="Images/blue.png" alt="" class="img-fluid mid-sec-btm-img2">
+        <img src="Images/blue.png" alt="" class="img-fluid mid-sec-btm-img2 img-slide1" loading="lazy">
         <h6 class="text-start pt-lg-4 pt-2 fw-bold">2. Invest</h6>
 
     </div>
     <div class="col-lg-auto col-md-2 px-0 col-3">
-        <img src="Images/blue.png" alt="" class="img-fluid mid-sec-btm-img2">
+        <img src="Images/blue.png" alt="" class="img-fluid mid-sec-btm-img2 img-slide1" loading="lazy">
         <h6 class="text-start pt-lg-4 pt-2 fw-bold">3. Earn</h6>
 
     </div>
@@ -391,11 +395,11 @@ Main street will never look the same again!</p>
 
 <section>
     <div class="container-fluid pb-5 px-lg-0 px-md-0 ps-md-4 px-xl-5 pt-5">
-        <h1 class="text-center fw-bold pt-5 pb-1">Benefits</h1>
+        <h1 class="text-center fw-bold pt-5 pb-1 txt-gradient slide-txt">Benefits</h1>
 
-        <div class="row pt-5 px-lg-0 px-md-0 px-xl-5 benifits-rowL">
+        <div class="row pt-5 px-lg-0 mx-lg-0 px-md-0 px-xl-5 benifits-rowL">
             <div class="col-lg-6 col-md-6 bottom-topL text-center col-12 pb-5 pb-lg-0 pb-md-0 px-0 ms-lg-0 ms-md-0 ms-1">
-                <img src="Images/bottom-sect1.png" alt="benifits" height="670px" class="img-fluid" >
+                <img src="Images/bottom-sect1.png" alt="benifits" height="670px" class="img-fluid img-slide1" loading="lazy" >
             </div>
             <div class="col-lg-6 col-md-6 ms-3 ms-lg-0 ms-md-0 benefits-rowR">
                 <div class="row">
@@ -444,7 +448,7 @@ Main street will never look the same again!</p>
 
 <section>
     <div class="container-fluid mb-5 pt-5 px-lg-0 px-xl-5 pb-5">
-        <h2 class="text-center fw-bold pt-4">Frequently asked questions</h2>
+        <h2 class="text-center fw-bold pt-4 txt-gradient slide-txt">Frequently asked questions</h2>
 
         <div class="accord-sec px-lg-1 px-xl-5 rounded-3">
           
@@ -530,9 +534,9 @@ Main street will never look the same again!</p>
 
 <footer>
 
-    <div class="container-fluid bg-dark pt-lg-5 text-white pb-5 px-lg-0 px-md-0  px-xl-5 px-0 "> 
+    <div class="container-fluid bg-dark pt-lg-5 text-white pb-5 px-lg-0 px-md-0   px-0 footer-main2 ps-xl-5"> 
 
-        <div class="footer-top  mx-lg-5 mx-md-3 px-md-4 pt-5 px-0 mx-0 pb-5 mb-5 ps-2">
+        <div class="footer-top  mx-lg-5 mx-md-3 px-md-4 pt-5 px-0 mx-0 pb-5 mb-5 ps-2 pe-xl-5">
 
             <h5 class="pb-lg-4 ">Success stories</h5>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -544,7 +548,7 @@ Main street will never look the same again!</p>
                 recommended!"</h1>
                 <div class="footer-carousel pt-4 d-flex align-content-center">
                     <div class="person-img ">
-                        <img src="Images/footer.png" class="rounded-5">
+                        <img src="Images/footer.png" class="rounded-5" height="50px" width="50px" loading="lazy">
                     </div>
                     <div class="person-info px-3">
 
@@ -557,7 +561,7 @@ Main street will never look the same again!</p>
             <h1 class="pt-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et consectetur."</h1>
                 <div class="footer-carousel pt-4 d-flex align-content-center">
                     <div class="person-img ">
-                        <img src="Images/oneplus.jpg" class="rounded-5" height="50px" width="50px">
+                        <img src="Images/oneplus.jpg" class="rounded-5" height="50px" width="50px" loading="lazy">
                     </div>
                     <div class="person-info px-3">
 
@@ -570,7 +574,7 @@ Main street will never look the same again!</p>
             <h1 class="pt-3">"We’re continuing to invest in data centers across the country with $1B+ for our Texas cloud and data center infrastructure."</h1>
                 <div class="footer-carousel pt-4 d-flex align-content-center">
                     <div class="person-img ">
-                        <img src="Images/google.jpeg" class="rounded-5" height="50px" width="50px">
+                        <img src="Images/google.jpeg" class="rounded-5" height="50px" width="50px" loading="lazy">
                     </div>
                     <div class="person-info px-3">
 
@@ -613,7 +617,7 @@ Main street will never look the same again!</p>
 <!-- Footer Navbar -->
 
 <div class="container-fluid pt-5 mt-lg-5 px-lg-0  px-xl-5 footer-nav me-lg-5">
-    <nav class="navbar navbar-expand-lg  nav-main px-lg-5 px-xl-5">
+    <nav class="navbar navbar-expand-lg   px-lg-5 px-xl-5">
         <div class="container-fluid px-lg-0 me-lg-5">
             <div class="nav-uls">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end pt-3 pe-3 fw-normal text-light">
@@ -646,7 +650,7 @@ Main street will never look the same again!</p>
 <div class="container-xl footer-bottom pt-3 px-0 px-lg-5 px-md-5 px-xl-0 ">
 
     <div class="logo-footer d-flex justify-content-between">
-        <img src="Images/LEVELED.png" alt="logo" class="img-fluid " >
+        <img src="Images/LEVELED.png" alt="logo" class="img-fluid " title="Sanket">
         <p >© 2024 Leveled. All rights reserved.</p>
     </div>
 
@@ -664,6 +668,7 @@ Main street will never look the same again!</p>
 </div>
 </div>
 </footer>
+
 
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
