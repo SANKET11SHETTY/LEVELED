@@ -219,6 +219,13 @@
   border: 1px solid rgb(174, 174, 174);
 }
 
+.owl-carousel .item .footer-carousel{
+  animation: fadeInUp ease 1s;
+}
+.owl-carousel .item h1{
+  animation: fadeInDown ease 1s;
+}
+
 .carousel-arrows2 .btn-c-1 svg,
 .carousel-arrows .btn-c-1 svg {
   margin-left: 7px !important;
@@ -717,3 +724,17 @@ animation: appear linear;
 animation-timeline: view();
 animation-range: entry 0% cover 40%;
 }
+
+/* Text animations */
+
+.btm-sec-topR h4{
+  animation: fadeInDown ease 1s;
+}
+
+/* html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */

@@ -1,29 +1,29 @@
 //   Footer Carousel
 
-const carouselItems = document.querySelectorAll(".carousel-item");
-const prevButton = document.getElementById("prev-btn");
-const nextButton = document.getElementById("next-btn");
-let currentSlide = 0;
+// const carouselItems = document.querySelectorAll(".carousel-item");
+// const prevButton = document.getElementById("prev-btn");
+// const nextButton = document.getElementById("next-btn");
+// let currentSlide = 0;
 
-function updateCarousel() {
-  for (let i = 0; i < carouselItems.length; i++) {
-    carouselItems[i].classList.remove("active");
-  }
-  carouselItems[currentSlide].classList.add("active");
-}
+// function updateCarousel() {
+//   for (let i = 0; i < carouselItems.length; i++) {
+//     carouselItems[i].classList.remove("active");
+//   }
+//   carouselItems[currentSlide].classList.add("active");
+// }
 
-prevButton.addEventListener("click", () => {
-  currentSlide =
-    (currentSlide - 1 + carouselItems.length) % carouselItems.length;
-  updateCarousel();
-});
+// prevButton.addEventListener("click", () => {
+//   currentSlide =
+//     (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+//   updateCarousel();
+// });
 
-nextButton.addEventListener("click", () => {
-  currentSlide = (currentSlide + 1) % carouselItems.length;
-  updateCarousel();
-});
+// nextButton.addEventListener("click", () => {
+//   currentSlide = (currentSlide + 1) % carouselItems.length;
+//   updateCarousel();
+// });
 
-updateCarousel();
+// updateCarousel();
 
 // Auto Type Title
 
@@ -73,3 +73,5 @@ var loader = document.getElementById("pre-loader1");
 window.addEventListener("load", function () {
   loader.style.display = "none";
 });
+
+// Owl Carousel
