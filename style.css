@@ -774,3 +774,35 @@ animation-range: entry 0% cover 40%;
   overflow-x: hidden;
 } */
 
+/* Button Animation */
+.btn-login1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #b9ff66;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.btn-login1:hover:before {
+  left: 0;
+  z-index: -1;
+}
+.btn-login1 span {
+  color: black;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.btn-login1:hover span {
+  color: black;
+}
+
+.btn-login1:hover{
+  background-color: transparent !important;
+}
+
